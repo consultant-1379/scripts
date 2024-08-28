@@ -1,0 +1,1 @@
+curl -X GET --header 'Accept: application/json' --header 'AuthToken:AQIC5wM2LY4SfcwaR_1lSSntNfEjN2SWB0jQD1qHIVfMxsg.*AAJTSQACMDEAAlNLABQtMzMxNDUzODU4NTA4NDQ3MTk4NAACUzEAAA..*' --header 'Authorization: Basic ZWNtYWRtaW47Q2xvdWRBZG1pbjEyMw==' --insecure 'https://131.160.159.241/ecm_service/vnfpackages'

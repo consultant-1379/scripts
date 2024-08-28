@@ -1,0 +1,6 @@
+curl --insecure --user "ecmadmin:CloudAdmin123" --header "tenantId:ECM" -o dirtyVNF.txt  --header "Content-Type: application/json" -X POST https://131.160.159.241:443/ecm_service/vnf_packages \--data '{"tenantName":"ECM","fileName":"vnf08","name":"vnf08","description":"vnf08 Description","category":"vapp","vendor":"Ericsson","version":"2","softwareVersion":"18.0","isPublic":false,"deploymentManager":"EXTERNAL_VNFM","packageFormat":"EXTERNAL_FORMAT","vnfManagers":[{"id":"${VAPP_MANAGER_ID}"}],"userDefinedData":{"aString":"ETSI NFV SOL","aNumber":0.03,"anArray":[1,2,3],"anObject":{"organization":"ETSI"},"isg":"NFV","workingGroup":"SOL"}}'
+./writeTempName.py
+./removeBrackets.py
+./writeExports.py
+./sourceExports.bash
+./errorCheck.py

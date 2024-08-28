@@ -1,0 +1,19 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.zip.CRC32;
+import java.util.zip.Checksum;
+
+public class CountCRC32 {
+	public static void main(String[] args) throws IOException {
+                String filename = args[0];
+                byte[] content = fileContent();
+                Checksum checksum = new CRC32();
+                checksum.update(content, 0, content.length);
+                String crc32 = Long.toString(checksum.getValue(), 16);
+                System.out.println(crc32);
+        }
+        public static byte[] fileContent(String filename) throws IOException {
+                return new String(Files.readAllBytes(Paths.get(filename))).getBytes();
+        }
+}

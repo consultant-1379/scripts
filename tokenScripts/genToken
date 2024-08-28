@@ -1,0 +1,5 @@
+curl -X POST  --header 'Authorization:Basic ZWNtYWRtaW46Q2xvdWRBZG1pbjEyMw==' --header 'TenantId:ecm' -o /home/cloud-user/curl/Auto/tokenScripts/dirtyToken.txt  --insecure  https://131.160.159.241:443/ecm_service/tokens
+#run the get token command and save out put into dirtyToken.txt
+
+/home/cloud-user/curl/Auto/tokenScripts/removeBrackets.py
+/home/cloud-user/curl/Auto/tokenScripts/verToken

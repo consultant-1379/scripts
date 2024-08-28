@@ -1,0 +1,1 @@
+{"status":{"reqStatus":"SUCCESS","credentials":"AQIC5wM2LY4SfcwaR_1lSSntNfEjN2SWB0jQD1qHIVfMxsg.*AAJTSQACMDEAAlNLABQtMzMxNDUzODU4NTA4NDQ3MTk4NAACUzEAAA..*","msgs":[{"msgCode":"ECMSE103","msgText":"User %A1% was authenticated successfully.","msgValues":["ecmadmin"]}]}}

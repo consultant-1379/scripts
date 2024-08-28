@@ -1,0 +1,3 @@
+/home/cloud-user/curl/Auto/tokenScripts/runCheck.py
+/home/cloud-user/curl/Auto/tokenScripts/curlAuthToken >/home/cloud-user/curl/Auto/tokenScripts/saveVer.txt
+/home/cloud-user/curl/Auto/tokenScripts/trimVer.py

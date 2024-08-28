@@ -1,0 +1,29 @@
+{
+	dataVNFDSpecific": {
+                 "vnfdId": "vnflaf",
+                 "vnfdVersion": "2.1.19",
+                 "vnfProvider": "Ericsson",
+                 "vnfProductName": "vnf-wrapper",
+                 "vnfSoftwareVersion": "2.1.19",
+                 "flavourId": [
+                          "1"
+                 ]
+         },
+         "instantiateVnfOpConfig": {
+                 "servicesImage": "ERICvnflafdevimage_CXP9032638-4.0.21.qcow2",
+                 "services_flavor": "m1.medium",
+                 "ip_version": 4,
+                 "external_net_id": "491522c2-f023-4162-b097-55a9a71972f3",
+                 "external_subnet_cidr": "131.160.162.0/25",
+                 "external_subnet_gateway": "131.160.162.1",
+                 "external_ip_for_services_vm": "131.160.162.94",
+                 "cloudManagerType": "CEE",
+                 "ossType": "OSSRC",
+                 "ossMasterHostName": "masterservice",
+                 "ossMasterHostIP": "1.1.1.1",
+                 "ossNotificationServiceHost": "notificationservice",
+                 "ossNotificationServiceIP": "1.1.1.1",
+                 "ossUserName": "root"
+         }
+}
+
